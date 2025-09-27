@@ -1,8 +1,6 @@
 # Gazprombank Auth
 
-## https://dv0vd.dev/demo/gazprombank/login
-## https://dv0vd.dev/demo/gazprombank/forgot-password
-## https://dv0vd.dev/demo/gazprombank/register
+## https://dv0vd.dev/demo/gazprombank
 BEM-based layout for Gazprombank registration, login, and password reset forms.
 
 ![](login.png)
