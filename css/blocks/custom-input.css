@@ -1,0 +1,103 @@
+.custom-input {
+  position: relative;
+  padding: 11px 0 0 0;
+  margin: 0;
+}
+
+.custom-input__field {
+  padding: 13px 56px 11px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1e222e;
+  width: 100%;
+  border: 1px solid #cdcfde;
+  border-radius: 8px;
+}
+
+.custom-input__field:hover {
+  border: solid 1px #3356d7;
+}
+
+.custom-input__field:hover ~ .custom-input__icon {
+  color: #3356d7;
+}
+
+.custom-input__field:focus {
+  border: solid 1px #3356d7;
+  outline: none;
+}
+
+.custom-input__field:focus ~ .custom-input__icon {
+  color: #3356d7;
+}
+
+.custom-input__label {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  padding: 0 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8f939f;
+  background-color: #fff;
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+.custom-input__icon {
+  position: absolute;
+  right: 16px;
+  top: 10px;
+  transform: translateY(50%);
+  pointer-events: none;
+}
+
+.custom-input__error-message {
+  margin: 8px 0 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #f6514b;
+  display: none;
+}
+
+.custom-input--accent {
+  padding: 40px 0 0 0;
+}
+
+.custom-input--accent .custom-input__field {
+  padding: 13px 16px 11px 16px;
+}
+
+.custom-input--accent .custom-input__label {
+  top: 4px;
+  left: -4px;
+  transform: translateY(50%);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8f939f;
+}
+
+.custom-input--error {
+  color: #f6514b;
+}
+
+.custom-input--error .custom-input__error-message {
+  display: block;
+}
+
+.custom-input--error .custom-input__icon {
+  color: #f6514b !important;
+}
+
+.custom-input--error .custom-input__field {
+  color: #f9c4c2;
+  border-color: #f9c4c2;
+}

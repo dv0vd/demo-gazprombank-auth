@@ -1,0 +1,25 @@
+.custom-link {
+  text-align: center;
+}
+
+.custom-link--accent .custom-link__link {
+  color: #476bf0;
+}
+
+.custom-link__link {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+
+.custom-link__link:hover {
+  color: #3356d7;
+}
+
+.custom-link__link:focus {
+  color: #2143c1;
+  outline: none;
+}

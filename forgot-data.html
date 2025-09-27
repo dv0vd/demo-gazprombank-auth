@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Проблема со входом - Газпромбанк Бизнес-Онлайн</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <a class="header__logo-link" href="/" aria-label="Перейти на главную страницу">
+            <img class="header__logo-icon" src="./images/logo.png" alt="Логотип компании" width="200" height="50"
+              aria-hidden="true">
+          </a>
+        </div>
+        <div class="header__achievement">
+          <div class="header__achievement-wrapper">
+            <p class="header__achievement-text">Топ-3 лучших банков для корпоративных клиентов</p>
+            <p class="header__achievement-note">По&nbsp;версии Markswebb</p>
+          </div>
+          <img class="header__achievement-image" src="./images/achievement.png" alt="Корона" width="56" height="56"
+            aria-hidden="true">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="forgot-data">
+      <div class="forgot-data__wrapper">
+        <a class="back-button forgot-data__back" href="/login.html" aria-label="На страницу входа">
+          <svg class="back-button__icon" width="20" height="14" aria-hidden="true">
+            <use xlink:href="./images/sprite.svg#left-arrow"></use>
+          </svg>
+        </a>
+        <form class="reset-form">
+          <div class="reset-form__main">
+            <h1 class="reset-form__heading visually-hidden">Проблема со входом</h1>
+            <fieldset class="reset-form__wrapper">
+              <legend class="reset-form__heading">Не&nbsp;можете войти?</legend>
+              <div class="reset-form__inner">
+                <div class="custom-radio reset-form__input">
+                  <input class="custom-radio__field visually-hidden" type="radio" name="restore-type"
+                    id="reset-form-password" required>
+                  <label class="custom-radio__label" for="reset-form-password">Установить новый пароль</label>
+                </div>
+                <div class="custom-radio reset-form__input">
+                  <input class="custom-radio__field visually-hidden" type="radio" name="restore-type"
+                    id="reset-form-login" required>
+                  <label class="custom-radio__label" for="reset-form-login">Восстановить логин</label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="custom-button reset-form__button">
+              <button class="custom-button__field" type="submit" disabled>Продолжить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__links">
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a class="footer__links-item-link" href="#" aria-label="Позвонить нам">
+                <svg class="footer__links-item-link-icon" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="./images/sprite.svg#phone"></use>
+                </svg>
+                <span class="footer__links-item-link-name" aria-hidden="true">8&nbsp;800&nbsp;100 11&nbsp;89</span>
+              </a>
+            </li>
+            <li class="footer__links-item">
+              <a class="footer__links-item-link" href="#" aria-label="Написать в Telegram">
+                <svg class="footer__links-item-link-icon" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="./images/sprite.svg#telegram"></use>
+                </svg>
+                <span class="footer__links-item-link-name" aria-hidden="true">Написать в&nbsp;Telegram</span>
+              </a>
+            </li>
+            <li class="footer__links-item">
+              <a class="footer__links-item-link" href="#" aria-label="Посмотреть информацию об организации">
+                <span class="footer__links-item-link-name footer__links-item-link-name--secondary"
+                  aria-hidden="true">&copy;&nbsp;2024 Банк ГПБ (АО) Генеральная
+                  лицензия Банка
+                  России &#8470;&nbsp;354</span>
+              </a>
+            </li>
+            <li class="footer__links-item">
+              <a class="footer__links-item-link" href="#" aria-label="Изучить политику обработки персональных данных">
+                <span class="footer__links-item-link-name footer__links-item-link-name--secondary"
+                  aria-hidden="true">Политика обработки персональных
+                  данных</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__settings">
+          <ul class="footer__settings-list">
+            <li class="footer__settings-item">
+              <button class="footer__settings-item" type="button" aria-label="Изменить тему">
+                <span class="footer__links-item-link-name" aria-hidden="true">Светлая тема</span>
+                <svg class="footer__links-item-link-icon" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="./images/sprite.svg#theme"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

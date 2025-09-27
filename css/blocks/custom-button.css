@@ -1,0 +1,42 @@
+.custom-button__field {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 60px;
+  background-color: #476bf0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.custom-button__field:hover {
+  background-color: #3356d7;
+}
+
+.custom-button__field:focus {
+  background-color: #2143c1;
+  outline: none;
+  border: none;
+}
+
+.custom-button__field:disabled {
+  color: #777c9b;
+  background-color: #dbdfeb;
+  cursor: not-allowed;
+}
+
+.custom-button__field:disabled:hover {
+  color: #777c9b;
+  background-color: #dbdfeb;
+  cursor: not-allowed;
+}
+
+.custom-button__field:disabled:focus {
+  color: #777c9b;
+  background-color: #dbdfeb;
+  cursor: not-allowed;
+}

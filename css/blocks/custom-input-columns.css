@@ -1,0 +1,18 @@
+.custom-input-columns {
+  display: flex;
+  gap: 10px;
+}
+
+.custom-input-columns .register-form__input {
+  margin: 0;
+  flex: 1;
+}
+
+
+/* .custom-input-columns__column {
+  width: 50%;
+} */
+
+/* .custom-input-columns .custom-input__field {
+  height: 100%;
+} */

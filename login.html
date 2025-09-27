@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Вход - Газпромбанк Бизнес-Онлайн</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <a class="header__logo-link" href="/" aria-label="Перейти на главную страницу">
+            <img class="header__logo-icon" src="./images/logo.png" alt="Логотип компании" width="200" height="50"
+              aria-hidden="true">
+          </a>
+        </div>
+        <div class="header__achievement">
+          <div class="header__achievement-wrapper">
+            <p class="header__achievement-text">Топ-3 лучших банков для корпоративных клиентов</p>
+            <p class="header__achievement-note">По&nbsp;версии Markswebb</p>
+          </div>
+          <img class="header__achievement-image" src="./images/achievement.png" alt="Корона" width="56" height="56"
+            aria-hidden="true">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="login">
+      <form class="login-form">
+        <div class="login-form__main">
+          <h1 class="login-form__heading">Вход в&nbsp;ГПБ Бизнес-онлайн</h1>
+          <div class="custom-input login-form__input">
+            <input class="custom-input__field" type="text" name="login" id="login-form-login" required>
+            <label class="custom-input__label" for="login-form-login">Логин</label>
+            <svg class="custom-input__icon" width="22" height="22" aria-hidden="true">
+              <use xlink:href="./images/sprite.svg#account"></use>
+            </svg>
+            <p class="custom-input__error-message">Поле обязательно для заполнения</p>
+          </div>
+          <div class="custom-input login-form__input">
+            <input class="custom-input__field" type="password" name="password" id="login-form-password" required>
+            <label class="custom-input__label" for="login-form-password">Пароль</label>
+            <svg class="custom-input__icon" width="22" height="22" aria-hidden="true">
+              <use xlink:href="./images/sprite.svg#eye-closed"></use>
+            </svg>
+            <p class="custom-input__error-message">Неверный пароль</p>
+          </div>
+          <div class="custom-button login-form__button">
+            <button class="custom-button__field" type="submit">Войти</button>
+          </div>
+          <div class="custom-link">
+            <a class="custom-link__link" href="./forgot-data.html">Забыли логин или пароль?</a>
+          </div>
+        </div>
+        <div class="login-form__footer">
+          <span class="login-form__footer-name">Войти с&nbsp;помощью:</span>
+          <ul class="login-form__list">
+            <li class="login-form__list-item">
+              <a class="login-form__list-item-link" href="#">
+                <svg class="login-form__list-item-link-icon" width="32" height="32" aria-hidden="true">
+                  <use xlink:href="./images/sprite.svg#gpb"></use>
+                </svg>
+                <span class="login-form__list-item-link-name">ЭТП ГПБ</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </form>
+      <div class="custom-link custom-link--accent">
+        <a class="custom-link__link" href="./register.html">Зарегистрироваться</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__links">
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a class="footer__links-item-link" href="#" aria-label="Позвонить нам">
+                <svg class="footer__links-item-link-icon" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="./images/sprite.svg#phone"></use>
+                </svg>
+                <span class="footer__links-item-link-name" aria-hidden="true">8&nbsp;800&nbsp;100 11&nbsp;89</span>
+              </a>
+            </li>
+            <li class="footer__links-item">
+              <a class="footer__links-item-link" href="#" aria-label="Написать в Telegram">
+                <svg class="footer__links-item-link-icon" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="./images/sprite.svg#telegram"></use>
+                </svg>
+                <span class="footer__links-item-link-name" aria-hidden="true">Написать в&nbsp;Telegram</span>
+              </a>
+            </li>
+            <li class="footer__links-item">
+              <a class="footer__links-item-link" href="#" aria-label="Посмотреть информацию об организации">
+                <span class="footer__links-item-link-name footer__links-item-link-name--secondary"
+                  aria-hidden="true">&copy;&nbsp;2024 Банк ГПБ (АО) Генеральная
+                  лицензия Банка
+                  России &#8470;&nbsp;354</span>
+              </a>
+            </li>
+            <li class="footer__links-item">
+              <a class="footer__links-item-link" href="#" aria-label="Изучить политику обработки персональных данных">
+                <span class="footer__links-item-link-name footer__links-item-link-name--secondary"
+                  aria-hidden="true">Политика обработки персональных
+                  данных</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__settings">
+          <ul class="footer__settings-list">
+            <li class="footer__settings-item">
+              <button class="footer__settings-item" type="button" aria-label="Изменить тему">
+                <span class="footer__links-item-link-name" aria-hidden="true">Светлая тема</span>
+                <svg class="footer__links-item-link-icon" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="./images/sprite.svg#theme"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

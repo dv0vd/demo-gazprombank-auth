@@ -1,0 +1,37 @@
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  color: #1e222e;
+  box-shadow: 2px 2px 20px 0px #101a3b1a;
+}
+
+.back-button:hover {
+  outline: none;
+  color: #476bf0;
+}
+
+.back-button:focus {
+  outline: none;
+  color: #476bf0;
+}
+
+.back-button--disabled {
+  color: #777c9b;
+  background-color: #dbdfeb;
+  cursor: not-allowed;
+}
+
+.back-button--disabled:hover .back-button__icon {
+  color: #777c9b;
+  background-color: #dbdfeb;
+}
+
+.back-button--disabled:focus .back-button__icon {
+  color: #777c9b;
+  background-color: #dbdfeb;
+}

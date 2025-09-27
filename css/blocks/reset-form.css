@@ -1,0 +1,39 @@
+.reset-form {
+  margin: 0;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 24px 0px #7f225505;
+}
+
+.reset-form__heading {
+  margin: 0 auto 32px auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1e222e;
+}
+
+.reset-form__main {
+  padding: 32px;
+}
+
+.reset-form__wrapper {
+  margin: 0 0 24px 0;
+  padding: 0;
+  border: none;
+}
+
+.reset-form__inner {
+  padding: 28px 32px;
+  border-radius: 12px;
+  border: solid 1px #cdcfde80;
+}
+
+.reset-form__input {
+  margin: 0 0 20px 0;
+}
+
+.reset-form__input:last-child {
+  margin: 0;
+}

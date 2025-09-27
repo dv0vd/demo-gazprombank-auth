@@ -1,0 +1,92 @@
+.login-form {
+  margin: 0 0 30px 0;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 24px 0px #7f225505;
+}
+
+.login-form__heading {
+  margin: 0 0 19px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1e222e;
+  text-align: center;
+}
+
+.login-form__button {
+  margin: 0 0 25px 0;
+}
+
+.login-form__input {
+  margin: 0 0 10px 0;
+}
+
+.login-form__input:has(+ .login-form__button) {
+  margin: 0 0 24px 0;
+}
+
+.login-form__input:last-child {
+  margin: 0;
+}
+
+.login-form__reset-link {
+  display: block;
+  margin: 24px 0 0 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1e222e;
+}
+
+.login-form__reset-link:hover {
+  color: #3356d7;
+}
+
+.login-form__main {
+  padding: 32px;
+}
+
+.login-form__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 32px 24px 32px;
+  background: linear-gradient(90deg, #f5f6fa 0%, #f7f1f7 51.5%, #f5f7fd 100%);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7e7d87;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.login-form__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.login-form__list-item-link {
+  display: flex;
+  align-items: center;
+}
+
+.login-form__list-item-link:hover {
+  color: #3356d7;
+}
+
+.login-form__list-item-link:focus {
+  color: #2143c1;
+  outline: none;
+  border: none;
+}
+
+.login-form__list-item-link-icon {
+  margin: 0 8px 0 0;
+}

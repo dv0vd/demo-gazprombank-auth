@@ -1,0 +1,35 @@
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.header__achievement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.header__achievement-text {
+  margin: 0 0 4px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #777b87;
+  text-align: right;
+}
+
+.header__achievement-note {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a8acb7;
+  text-align: right;
+}

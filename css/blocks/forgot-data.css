@@ -1,0 +1,15 @@
+.forgot-data {
+  width: 450px;
+  margin: auto;
+  padding: 137px 0 0 0;
+}
+
+.forgot-data__back {
+  position: absolute;
+  top: 22px;
+  left: -24px;
+}
+
+.forgot-data__wrapper {
+  position: relative;
+}
