@@ -32,7 +32,7 @@
 }
 
 .custom-checkbox__label::after {
-  content: url("/images/mark.svg");
+  content: url("../../images/mark.svg");
   display: none;
   background-color: inherit;
   position: absolute;
